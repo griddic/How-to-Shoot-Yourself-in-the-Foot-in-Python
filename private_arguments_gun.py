@@ -2,7 +2,7 @@ class Base:
     def __init__(self):
         self.__name = 'undefined'
 
-    def great(self):
+    def greet(self):
         return f'I am {self.__name}.'
 
 
@@ -14,4 +14,4 @@ class Heir(Base):
 
 if __name__ == '__main__':
     heir = Heir('Ivan')
-    print(heir.great())
+    print(heir.greet())
